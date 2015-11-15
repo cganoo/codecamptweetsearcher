@@ -46,7 +46,7 @@ It is recommended to also use the following for experimenting with the source co
 #### Auto Deployments:
 1. The easiest way to update a Lambda function is to use another <i>deployer</i> Lambda Function which watches for new jars in an S3 bucket
 2. This method is described in this [AWS blog](https://aws.amazon.com/blogs/compute/new-deployment-options-for-aws-lambda/)
-3. Once you have set that up, all you need to do is to configure your gradle plugin to upload your jar to the S3 bucket being watched by the <i>deployer<i> Lambda function
+3. Once you have set that up, all you need to do is to configure your gradle plugin to upload your jar to the S3 bucket being watched by the <i>deployer</i> Lambda function
 4. Some popular ways of doing that seem to be [this](https://github.com/literalice/gradle-aws-s3-sync) and [this](https://github.com/classmethod-aws/gradle-aws-plugin)
 
 ### Highlights
