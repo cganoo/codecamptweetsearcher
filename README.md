@@ -32,14 +32,14 @@ It is recommended to also use the following for experimenting with the source co
 
 ### Prerequisite AWS Resources
 1. An [AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html) function which upon invocation will run your jar
-2. A S3 bucket to act as the source fo events for your Lambda function
+2. A S3 bucket to act as the source of events for your Lambda function
 3. An ElasticSearch cluster for your Lambda function to index the received S3 events
 
 ### Updating AWS Lambda function with your jar
 
 #### Manual Deployments:
-1. When you want to push a code change rebuild your local jar.
-2. Upload your local jar either directly to your Lambda function or to another S3 bucket and link it in the AWS Lambda console
+1. When you want to push a code change, first rebuild your local jar.
+2. Then upload your local jar (using aws cli or AWS S3 console) either directly to your Lambda function or to another S3 bucket and link it in the AWS Lambda console.
 
 <b>OR</b>
 #### Auto Deployments:
@@ -60,5 +60,4 @@ Use this at your own risk.
 
 ## Author
 
-Chaitanya Ganoo
-www.linkedin.com/in/cganoo
+[Chaitanya Ganoo](www.linkedin.com/in/cganoo)
