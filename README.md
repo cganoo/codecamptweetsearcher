@@ -31,8 +31,7 @@ It is recommended to also use the following for experimenting with the source co
 2. <b>codecamptweetsearcher-1.0-SNAPSHOT.zip</b> should now be created in <b>./build/distributions</b>
 
 ### Prerequisite AWS Resources
-1. An [AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html) function for reference
-) which upon invocation will run your jar
+1. An [AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html) function which upon invocation will run your jar
 2. A S3 bucket to act as the source fo events for your Lambda function
 3. An ElasticSearch cluster for your Lambda function to index the received S3 events
 
